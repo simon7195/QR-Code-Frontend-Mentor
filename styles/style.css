@@ -62,7 +62,7 @@ footer {
   background-color: var(--color-white);
   width: 320px;
   height: 497px;
-  box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.0477);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
   border-radius: 20px;
   & img {
     width: 288px;
@@ -70,12 +70,11 @@ footer {
     border-radius: 10px;
     margin: 16px 16px 24px 16px;
   }
-}
-
-.card .text {
-  width: 288px;
-  height: 129px;
-  margin: 0px 16px 40px 16px;
+  & .text {
+    width: 288px;
+    height: 129px;
+    margin: 0px 16px 40px 16px;
+  }
 }
 
 /* Attribution */
